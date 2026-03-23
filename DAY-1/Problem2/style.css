@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav1 {
+  height: 50px;
+  background-color: #252525;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+  padding-left: 10px;
+  color: #ffff;
+}
+.box1 > h2 {
+  font-weight: 200;
+}
+.box2 {
+  color: #ffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.childbox {
+  border-right: 1px solid rgb(228, 228, 228);
+  align-items: center;
+  padding: 0 20px;
+  display: flex;
+}
+.childbox > span {
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.childbox > h2 {
+  font-size: 0.7rem;
+  font-weight: 100;
+  margin-left: 10px;
+}
+.box2 > div:nth-last-child(1) {
+  border: none;
+}
+#mbox {
+  width: 40px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+}
+#mbox > img {
+  width: 100%;
+}
+.nav2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  /* width: 50px; */
+  padding: 0 40px;
+  height: 60px;
+}
+.sbox1 {
+  display: flex;
+  align-items: center;
+}
+
+.tbox1 > img {
+  width: 200px;
+}
+.tbox2 a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  margin: 0 10px;
+  font-size: 0.8rem;
+}
+.tbox2 > a:nth-last-child(1) {
+  color: red;
+}
+.sbox2 {
+  display: flex;
+  align-items: center;
+}
+.tbox3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  padding-bottom: 7px;
+  margin-right: 20px;
+}
+.tbox3 > input {
+  border: none;
+  display: flex;
+  width: 120px;
+  padding-left: 10px;
+  background-color: transparent;
+    outline: none;
+  
+}
+.tbox3>input::placeholder{
+    opacity: 0.7;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.tbox4 {
+  display: flex;
+  align-items: center;
+  background-color:#C40C2F;
+}
+.tbox4{
+   
+    border-radius: 25px;
+    color: #f7f7f7;
+    width: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.tbox4>.tbox5>h2{
+font-size: 0.8rem;
+}
+.tbox4>.tbox5>p{
+font-size: 0.5rem;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 50px;
+}
+.minicontainer{
+ box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.minicontainer> .ibox {
+  position: relative;
+    
+}
+.minicontainer> .ibox >.ubox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  
+  width: 100%;
+  top: 15px;
+
+  
+}
+.minicontainer> .ibox> .ubox >p{
+  background: #2A7B9B;
+background: linear-gradient(278deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 66%);
+padding: 5px;
+color: #ffff;
+font-size: 0.7rem;
+}
+.minicontainer> .ibox> .ubox > span{
+  margin-right: 15px;
+}
+.minicontainer> .ibox >img {
+  width: 100%;
+}
+.minicontainer>.tbox >h1{
+  margin: 10px;
+}
+.minicontainer > .tbox > h1:nth-child(1){
+  font-size: 0.7rem;
+}
+.minicontainer > .tbox > h1:nth-child(2){
+  font-size: 1rem;
+}
+.minicontainer > .tbox > h1:nth-child(3){
+  font-size: 1rem;
+}
+
